@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: SpaceQuest;
-  src: url(SpaceQuest-yOY3.woff);
+  src: url(./Fonts/SpaceQuest-yOY3.woff);
 }
 h1,
 h2,
@@ -19,7 +19,7 @@ h6 {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: url(./dario-bronnimann-hNQwIirOseE-unsplash.jpg);
+  background: transparent;  
 }
 
 /* Handle */
@@ -45,7 +45,7 @@ h6 {
 }
 
 body {
-  background-image: url(./dario-bronnimann-hNQwIirOseE-unsplash.jpg);
+  background-image: url(./images/dario-bronnimann-hNQwIirOseE-unsplash.jpg);
   margin: 0;
   inset: 50px;
   font-family: var(--f-body);
