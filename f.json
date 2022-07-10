@@ -1,0 +1,27 @@
+{
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^com\\.apple\\.finder$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "description": "Finder Ctrl-; goto location",
+            "from": {
+                "pointing_button": "button4"
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": [
+                        "command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
